@@ -38,6 +38,10 @@ function register(){
 
     let total = (subtotal + calculation); 
 
-    document.getElementById("itemTotal").innerHTML+=`<li class="text"> Product: ${productName} Subtotal: $${subtotal} Total: $${total.toFixed(2)} </li>`;
+    document.getElementById("itemName").innerHTML+=`<li class="text"> Product: ${productName} </li>`;
+    
+    document.getElementById("itemSubtotal").innerHTML+=`<li class="text"> Subtotal: $${subtotal} </li>`;
+    
+    document.getElementById("itemTotal").innerHTML+=`<li class="text"> Total: $${total.toFixed(2)} </li>`;
 
 }
